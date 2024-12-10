@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iPrint_pro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be00f76e77bd91c4524e552719b14c35d76b3a71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcdcd45d540d7e5847e270b2e67faeaa81ffa675")]
 [assembly: System.Reflection.AssemblyProductAttribute("iPrint_pro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iPrint_pro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/bin/Debug/net8.0/iPrint_pro
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/bin/Debug/net8.0/iPrint_pro.deps.json
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/bin/Debug/net8.0/iPrint_pro.runtimeconfig.json
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/bin/Debug/net8.0/iPrint_pro.dll
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/bin/Debug/net8.0/iPrint_pro.pdb
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.AssemblyInfoInputs.cache
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.AssemblyInfo.cs
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.csproj.CoreCompileInputs.cache
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.sourcelink.json
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.dll
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/refint/iPrint_pro.dll
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.pdb
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/iPrint_pro.genruntimeconfig.cache
+/Users/andrei.yakovenko/Desktop/Обучение/Repositories/iPrint_pro/iPrint_pro/obj/Debug/net8.0/ref/iPrint_pro.dll

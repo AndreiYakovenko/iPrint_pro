@@ -107,7 +107,7 @@
         }
 
         System.Console.WriteLine("Стоимость печати одного листа     " + price[type, volume] + " рублей");
-        System.Console.WriteLine("Стоимость печати данной позиции " + price[type, volume] * number + " рублей");
+        System.Console.WriteLine("Стоимость печати данной позиции " + Math.Round((price[type, volume] * number), 2) + " рублей");
         System.Console.WriteLine();
     }
 }

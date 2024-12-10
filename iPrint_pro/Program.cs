@@ -46,6 +46,8 @@
         number = Convert.ToInt32(Console.ReadLine());
         System.Console.WriteLine();
 
+        System.Console.WriteLine("Ваш заказ:");
+
         if (format == 1)
         {
             System.Console.WriteLine("Формат листов А4");
@@ -76,7 +78,7 @@
         System.Console.WriteLine();
 
         typePrint = Convert.ToString(color) + format + desing;
-        System.Console.WriteLine(typePrint);
+        // System.Console.WriteLine(typePrint);
 
         for (int i = 0; i <= 7; i++)
         {
@@ -85,7 +87,6 @@
                 type = i;
                 break;
             }
-            // break;
         }
 
         if (number <= 50)
@@ -105,8 +106,6 @@
             volume = 3;
         }
 
-        System.Console.WriteLine(type);
-        System.Console.WriteLine(volume);
         System.Console.WriteLine(price[type, volume]);
     }
 }

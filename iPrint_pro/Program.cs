@@ -32,14 +32,14 @@
         int volume = 0;
 
         System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный формат,\nдля А4 нажмите 1,\nдля А5 нажмите 2");
+        System.Console.WriteLine("Введите нужный формат:\nдля А4 нажмите 1,\nдля А5 нажмите 2");
         format = Convert.ToInt32(Console.ReadLine());
         System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный цвет,\nдля Цветной печати нажмите 1,\nдля Чёрно-белой печати нажмите 2");
+        System.Console.WriteLine("Введите нужный цвет:\nдля Цветной печати нажмите 1,\nдля Чёрно-белой печати нажмите 2");
         color = Convert.ToInt32(Console.ReadLine()); ;
         System.Console.WriteLine();
         System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный макет,\nдля Односторонней печати нажмите 1,\nдля Двусторонней печати нажмите 2");
+        System.Console.WriteLine("Введите нужный макет:\nдля Односторонней печати нажмите 1,\nдля Двусторонней печати нажмите 2");
         desing = Convert.ToInt32(Console.ReadLine());
         System.Console.WriteLine();
         System.Console.WriteLine("Введите количество страниц:");
@@ -106,6 +106,8 @@
             volume = 3;
         }
 
-        System.Console.WriteLine(price[type, volume]);
+        System.Console.WriteLine("Стоимость печати одного листа     " + price[type, volume] + " рублей");
+        System.Console.WriteLine("Стоимость печати данной позиции " + price[type, volume] * number + " рублей");
+        System.Console.WriteLine();
     }
 }

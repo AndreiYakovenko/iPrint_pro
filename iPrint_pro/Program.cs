@@ -25,45 +25,45 @@
         int color;
         int desing;
         int number;
+        int type = 0;
+        int volume = 0;
         string typePrint;
         string[] arrayTypePrint = { "111", "112", "121", "122", "211", "212", "221", "222" };
         int[] arrayNumber = { 1, 2, 3, 4 };
-        int type = 0;
-        int volume = 0;
 
-        System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный формат:\nдля А4 нажмите 1,\nдля А5 нажмите 2");
+        Console.WriteLine();
+        Console.WriteLine("Введите нужный формат:\nдля А4 нажмите 1,\nдля А5 нажмите 2");
         format = Convert.ToInt32(Console.ReadLine());
-        System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный цвет:\nдля Цветной печати нажмите 1,\nдля Чёрно-белой печати нажмите 2");
+        Console.WriteLine();
+        Console.WriteLine("Введите нужный цвет:\nдля Цветной печати нажмите 1,\nдля Чёрно-белой печати нажмите 2");
         color = Convert.ToInt32(Console.ReadLine()); ;
-        System.Console.WriteLine();
-        System.Console.WriteLine();
-        System.Console.WriteLine("Введите нужный макет:\nдля Односторонней печати нажмите 1,\nдля Двусторонней печати нажмите 2");
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine("Введите нужный макет:\nдля Односторонней печати нажмите 1,\nдля Двусторонней печати нажмите 2");
         desing = Convert.ToInt32(Console.ReadLine());
-        System.Console.WriteLine();
-        System.Console.WriteLine("Введите количество страниц:");
+        Console.WriteLine();
+        Console.WriteLine("Введите количество страниц:");
         number = Convert.ToInt32(Console.ReadLine());
-        System.Console.WriteLine();
+        Console.WriteLine();
 
-        System.Console.WriteLine("Ваш заказ:");
+        Console.WriteLine("Ваш заказ:");
 
         if (format == 1)
         {
-            System.Console.WriteLine("Формат листов А4");
+            Console.WriteLine("Формат листов А4");
         }
         else
         {
-            System.Console.WriteLine("Формат листов А5");
+            Console.WriteLine("Формат листов А5");
         }
 
         if (color == 1)
         {
-            System.Console.WriteLine("Цветная печать");
+            Console.WriteLine("Цветная печать");
         }
         else
         {
-            System.Console.WriteLine("Чёрно-белая печать");
+            Console.WriteLine("Чёрно-белая печать");
         }
 
         if (desing == 1)
@@ -72,13 +72,12 @@
         }
         else
         {
-            System.Console.WriteLine("Двусторонняя");
+            Console.WriteLine("Двусторонняя");
         }
-        System.Console.WriteLine("Количество страниц: " + number);
-        System.Console.WriteLine();
+        Console.WriteLine("Количество страниц: " + number);
+        Console.WriteLine();
 
         typePrint = Convert.ToString(color) + format + desing;
-        // System.Console.WriteLine(typePrint);
 
         for (int i = 0; i <= 7; i++)
         {
@@ -106,8 +105,8 @@
             volume = 3;
         }
 
-        System.Console.WriteLine("Стоимость печати одного листа     " + price[type, volume] + " рублей");
-        System.Console.WriteLine("Стоимость печати данной позиции " + Math.Round((price[type, volume] * number), 2) + " рублей");
-        System.Console.WriteLine();
+        Console.WriteLine("Стоимость печати одного листа:     " + price[type, volume] + " рублей");
+        Console.WriteLine("Стоимость печати данной позиции: " + Math.Round((price[type, volume] * number), 2) + " рублей");
+        Console.WriteLine();
     }
 }
